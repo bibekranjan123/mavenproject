@@ -37,6 +37,6 @@ public class LoginPage extends BasePage implements AutoConstant
 		javascriptHighlightElement(driver, loginButton);
 		javascriptClick(driver, loginButton);
 		Thread.sleep(3000);
-		validateTitle(driver, "actiTIME - Enter Time-Track");
+		validateTitle(driver, "actiTIME - Licenses");
 	}
 }
